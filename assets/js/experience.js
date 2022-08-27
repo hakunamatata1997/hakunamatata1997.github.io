@@ -9,21 +9,21 @@ const exp = [
     cardImage: "assets/images/experience-page/index.jpeg",
     place: "IDRBT,Hyderabad",
     time: "(Sep, 2021 - present)",
-    desp: "<li>Worked on different research projects included in the fields of Machine learning, Deep learning, NLP</li> <li>Projects include Hate Speech Analysis on Twitter,Explainable AI for Deep Learning,Credit Fraud Detection,AntiMoney Laundering Detection,HeartDisease Prediction</li> ",
+    desp: "<li> Created 8 KNIME workflows for explaining black box models using LIME, SHAP and Counterfactual methods and utilised VAE-GAN for using them as a one class classifier in the banking domain.</li> <li>Handled 10+ practical lab sessions for Bankers who visit for programmes in IDRBT from different banks. </li> <li> Gathered, arranged and corrected research data to create representative graphs and charts highlighting results for presentations. </li>  <li>Streamlined research processes to meet tight deadlines for multiple projects. </li> <li> Collaborated with leadership team to identify relevant questions and determine best methods of collection and performed research into study topics to increase knowledge and to provide valuable contributions. </li> <li> Interpreted data analysis results to draw inferences and conclusions. </li> <li>Generated data models and performed analysis to produce reports outlining results.  </li>" ,
   },
   {
     title: "Associate Analyst",
     cardImage: "assets/images/experience-page/Wordmark-2.png",
     place: "GlobalLogic,Hyderabad",
     time: "(Apr - Sep, 2021)",
-    desp: "<li>Worked on Google Waymo Project for labelling images and videos using crowdcompute tools from Google</li>",
+    desp: "<li>Carried out for a client of Globallogic(Google) on Google Waymo project for labeling images and videos for self-driving cars using cloud compute tools with a target of 24 images per hour.</li><li>Communicated findings and insights to senior management to establish best practices and guide analysis into action and results.</li><li>Analyzed data sets using Cloud Compute tools to effectively meet company analysis and reporting requirements.</li>",
   },
   {
     title: "DevOps Engineer",
     cardImage: "assets/images/experience-page/devops.jpeg",
     place: "DevOps Enabler&Co,Bangalore",
     time: "(Jan - Jun, 2020)",
-    desp: "<li>Worked as an Intern and was involved in developing prototypes for automation of web building </li>",
+    desp: "<li>Developed a prototype for CI/CD for a website using GCP,Git,Docker,Kubernetes and Jenkins</li><li> Built automation tools and applications to deploy next-generation platforms.</li><li> Documented project design for reference and future use cases.</li>",
   },
 ];
 
