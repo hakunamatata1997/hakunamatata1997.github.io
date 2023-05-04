@@ -11,9 +11,9 @@ html[light-mode="light"] {
 }
 
 html[light-mode="dark"] {
-  --bg1-color: #272727;
-  --text-color: #fff;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --bg1-color: #f9aa00;
+  --text-color: #f80303;
+  --bg-txt-img: linear-gradient(315deg, #f6f6f6 0%, #ff8489 74%);
   --txt-fill: transparent;
   --shadow-col1: #191919;
   --shadow-col2: #1d1d1d;
@@ -97,12 +97,12 @@ section > div {
 
 /*color of experience page headings*/
 .my_experience {
-  color: #4e00bb;
+  color: #fd0404;
 }
 
 .sub-heading {
-  font-size: 17px;
-  margin-top: 20px;
+  font-size: 10px;
+  margin-top: 25px;
 }
 @media (max-width: 550px) {
   .main {
@@ -267,8 +267,8 @@ ul ol {
 
 .card-body .pre-heading {
   color: var(--meta-col);
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -327,7 +327,7 @@ ul ol {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #4c8bf5;
+  background: #ea3ced;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -436,6 +436,7 @@ ul ol {
 .card-body p {
   margin: 0px;
   font-size: 14px;
+  
 }
 
 .content {
