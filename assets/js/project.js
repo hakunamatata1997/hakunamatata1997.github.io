@@ -6,6 +6,38 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Intelligent Video Analytics for Efficiency Tracking",
+    cardImage: "assets/images/project-page/video-analytics.jpg",
+    description: "Provides facility to stream live or recorded video streams within a customizable web interface.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Email Automation System with LLM for Contextual Response Generation",
+    cardImage: "assets/images/project-page/email.png",
+    description: "Implements authentication setup and client configuration to access chosen mail API.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Explainable AI for Analytical Customer Relationship Management in Banking and Finance",
+    cardImage: "assets/images/project-page/xai.jpg",
+    description: "8 KNIME processes were developed to learn a black box model using a generalized linear model.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Chaotic Variational Auto Encoder based One Class Classifier for Insurance Fraud Detection",
+    cardImage: "assets/images/project-page/cvae.png",
+    description: "Here, we employed the logistic chaotic map to generate random noise in the latent space.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
+    Githublink: "",
+  },  
+  {
     title: "HeartDisease Prediction on Kubernetes",
     cardImage: "assets/images/project-page/kube.jpeg",
     description: "A HeartDisease Prediction model deployed on Kubernetes",
