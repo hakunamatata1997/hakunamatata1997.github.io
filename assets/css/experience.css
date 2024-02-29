@@ -169,7 +169,9 @@ section > div {
   display: flex;
   flex-flow: row wrap;
   padding: 18px;
-  color: var(--head-col);
+  font-size: 14px;
+  /* color: var(--head-col); */
+  color: #000;
   border-radius: 0 13px 13px 0;
 }
 
@@ -186,6 +188,7 @@ section > div {
 ul ol {
   list-style: disc;
   padding: 3%;
+  margin-top: 10px;
 }
 
 .card1 .featured-image {
@@ -266,14 +269,16 @@ ul ol {
 }
 
 .card-body .pre-heading {
-  color: var(--meta-col);
+  /* color: var(--meta-col); */
+  color: #000;
   font-size: 1rem;
   font-weight: 200;
   text-transform: uppercase;
 }
 
 .card-body .meta {
-  color: var(--meta-col);
+  /* color: var(--meta-col); */
+  color: #000;
   font-size: 16px;
 }
 
@@ -285,7 +290,8 @@ ul ol {
   font-size: 2rem;
   margin-top: 5px;
   margin-bottom: 5px;
-  color: var(--head-col);
+  color: #000;
+  /* color: var(--head-col); */
   text-align: center;
 }
 
