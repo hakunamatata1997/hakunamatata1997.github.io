@@ -1,29 +1,34 @@
 AOS.init();
 
-//  Work experience cards
-
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Research Associate",
-    cardImage: "assets/images/experience-page/index.jpeg",
-    place: "IDRBT,Hyderabad",
-    time: "(Sep, 2021 - present)",
-    desp: "<li> Crafted 8 KNIME workflows using LIME, SHAP, and Counterfactual methods to explain black box models for Analytical Customer Relationship Management in Banking and Finance</li> <li>Conducted research on Variational Autoencoder which led to development of Chaotic Variational Autoencoder based One Class Classifier for Insurance Fraud Detection.</li> <li>Guided over 10 practical lab sessions for banking professionals visiting the IDRBT for various programs. </li><li>Acquired, Cleaned, and Preprocessed over 15 datasets using machine learning methods to gain insights. </li><li>Collaborated with a leadership team of 4 to identify relevant questions and determine the best methods of collection, and research to increase knowledge and provide valuable contributions.</li> <li>Completed more than 20 data models and conducted analysis to produce reports that showcase the outcomes and valuable insights obtained. </li><li>Conducted training for a group of 9 individuals from various banks on the comprehensive implementation of AI/ML models. </li><li>Deployed 3 End to End Machine Learning applications using Docker, Kubernetes and MLflow </li><li>Facilitated the Advance AI/ML for Banks program for a group of 6 individuals from diverse banking institutions</li>"
+    title: "Data Scientist",
+    cardImage: "assets/images/experience-page/pss.jpeg",
+    place: "Pranathi Software Services, Hyderabad, IN",
+    time: "(September 2023 - Present)",
+    desp: "<li>Implemented a multi-language chatbot web application using Python, Flask, and JavaScript, enabling users to interact with the bot through both text and speech inputs.</li><li>Designed and actualized 'Intelligent Video Analytics for Efficiency Tracking' using Computer Vision technology for Work efficiency tracking, Shopping Mall Management, Manufacturing, and Warehousing.</li><li>Engineered a Document Parsing solution utilizing advanced OCR technology to accurately extract and process government ID information (PAN and Aadhar), resulting in a 40% reduction in manual data entry errors and saving 100+ hours monthly.</li><li>Spearheaded the creation and implementation of LLM models for Video Summarization, ASR, and NER, resulting in a 25% improvement in accuracy rates and a 30% reduction in processing time.</li><li>Built question-answering bots using Retrieval-Augmented Generation frameworks, efficiently utilizing vector stores and language models to provide accurate responses in less than 1 second 95% of the time.</li><li>Designed an Email Automation system that utilizes Mail API’s and LLM’s to efficiently understand the context of incoming mails and respond to them appropriately without human intervention, handling over 1,000 customer emails per day.</li>"
+  },
+  {
+    title: "Data Scientist & Research Associate",
+    cardImage: "assets/images/experience-page/randstad.jpeg",
+    place: "Randstad, Client: Institute for Development and Research in Banking Technology(IDRBT), Hyderabad, IN",
+    time: "(September 2021 - August 2023)",
+    desp: "<li>Crafted 8 KNIME workflows using LIME, SHAP, and Counterfactual methods to explain black box models for Analytical Customer Relationship Management in Banking and Finance.</li><li>Conducted research on Variational Autoencoder which led to development of Chaotic Variational Autoencoder based One Class Classifier for Insurance Fraud Detection.</li><li>Guided over 10 practical lab sessions for banking professionals visiting the IDRBT for various programs.</li><li>Acquired, Cleaned, and Preprocessed over 15 datasets using machine learning methods to gain insights.</li><li>Collaborated with a leadership team of 4 to identify relevant questions and determine the best methods of collection, and research to increase knowledge and provide valuable contributions.</li><li>Completed more than 20 data models and conducted analysis to produce reports that showcase the outcomes and valuable insights obtained.</li><li>Conducted training for a group of 9 individuals from various banks on the comprehensive implementation of AI/ML models.</li><li>Deployed 3 End to End Machine Learning applications using Docker, Kubernetes and MLflow.</li><li>Facilitated the 'Advance AI/ML for Banks' program for a group of 6 individuals from diverse banking institutions.</li>"
   },
   {
     title: "Associate Analyst",
-    cardImage: "assets/images/experience-page/Wordmark-2.png",
-    place: "GlobalLogic,Hyderabad",
-    time: "(Apr - Sep, 2021)",
-    desp: "<li>Worked on Google Waymo project to tag images and videos for self-driving cars using 4 variations of cloud compute tools.</li><li>Presented 20+ findings and insights to senior management to establish best practices and guide analysis into action and results.</li>",
+    cardImage: "assets/images/experience-page/globallogic2.png",
+    place: "GlobalLogic, Hyderabad, IN",
+    time: "(April 2021 - September 2021)",
+    desp: "<li>Worked on Google Waymo project to tag images and videos for self-driving cars using 4 variations of cloud compute tools.</li><li>Presented 20+ findings and insights to senior management to establish best practices and guide analysis into action and results.</li>"
   },
   {
-    title: "DevOps Engineer",
+    title: "DevOps Engineer Intern",
     cardImage: "assets/images/experience-page/devops.jpeg",
-    place: "DevOps Enabler&Co,Bangalore",
-    time: "(Jan - Jun, 2020)",
-    desp: "<li>Designed and built 2 prototypes for CI/CD for a website using GCP, Git, Docker, Kubernetes,Jenkins and documented project design for reference and future use cases.</li>",
+    place: "DevOps Enabler&Co, Bengaluru, IN",
+    time: "(January 2020 - June 2020)",
+    desp: "<li>Designed and built 2 prototypes for CI/CD for a website using GCP, Git, Docker, Kubernetes, Jenkins and documented project design for reference and future use cases.</li>"
   },
 ];
 
@@ -56,170 +61,3 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
-
-// Volunteership Cards
-
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "Volunteer",
-    cardImage: "assets/images/experience-page/swecha.jpeg",
-    description:
-      "Part time volunteership for this organization which promotes FOSS technologies and I was included in mentoring for students through workshops, bootcamps conducted by the organization.",
-  },
-  {
-    title: "Course Mentor",
-    cardImage: "assets/images/experience-page/index.jpeg",
-    description:
-      "Responsible for handling hands on sessions for PGDBT students in IDRBT and doing case studies for their course work",
-  },
-  // {
-  //   title: "PClub Summer Of Code 2020",
-  //   cardImage: "assets/images/experience-page/3.jpg",
-  //   description:
-  //     "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  // },
-  // {
-  //   title: "Hakin-Codes",
-  //   cardImage: "assets/images/experience-page/4.jpg",
-  //   description:
-  //     "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  // },
-];
-
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2><br>
-          <p class="copy">${description}</p></div>
-
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
-
-// Hackathon Section
-
-// const hackathonsection = document.querySelector(".hackathon-section");
-// const mentor = [
-//   {
-//     title: "The Uplift Project",
-//     subtitle: "Mentor",
-//     image: "assets/images/experience-page/uplift.png",
-//     desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-//   },
-//   {
-//     title: "ULHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/ulhacks.png",
-//     desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-//   },
-//   {
-//     title: "WaffleHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/wafflehacks.png",
-//     desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-//   },
-//   {
-//     title: "Elevate Tech",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/elevate.png",
-//     desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-//   },
-//   {
-//     title: "PitchTeen",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/pitchteen.png",
-//     desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-//   },
-//   {
-//     title: "Hack-A-Solution",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/hackasolution.png",
-//     desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-//   },
-//   {
-//     title: "UniGlobe Hacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/uniglobe.png",
-//     desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-//   },
-//   {
-//     title: "AtlasHacks",
-//     subtitle: "Mentor",
-//     image: "assets/images/experience-page/atlas.png",
-//     desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-//   },
-//   {
-//     title: "NeoHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/neo.png",
-//     desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-//   },
-//   {
-//     title: "Mission Inspired",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/mission.png",
-//     desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-//   },
-//   {
-//     title: "Hack3",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/hack3.png",
-//     desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-//   },
-//   {
-//     title: "JITHack",
-//     subtitle: "Mentor",
-//     image: "assets/images/experience-page/jithack.png",
-//     desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-//   },
-//   {
-//     title: "Recess Hacks",
-//     subtitle: "Mentor",
-//     image: "assets/images/experience-page/recess.png",
-//     desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-//   },
-//   {
-//     title: "Citro Tech",
-//     subtitle: "Mentor",
-//     image: "assets/images/experience-page/citro.png",
-//     desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-//   },
-//   {
-//     title: "NHacks",
-//     subtitle: "Judge",
-//     image: "assets/images/experience-page/nhacks.png",
-//     desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-//   },
-// ];
-//
-// const showCards3 = () => {
-//   let output = "";
-//   mentor.forEach(
-//     ({ title, image, subtitle, desp }) =>
-//       (output += `
-//       <div class="blog-slider__item swiper-slide">
-//         <div class="blog-slider__img">
-//             <img src="${image}" alt="">
-//         </div>
-//         <div class="blog-slider__content">
-//           <div class="blog-slider__title">${title}</div>
-//           <span class="blog-slider__code">${subtitle}</span>
-//           <div class="blog-slider__text">${desp}</div>
-//           <a href="#" class="blog-slider__button">Read More</a>
-//         </div>
-//       </div>
-      // `)
-//   );
-//   hackathonsection.innerHTML = output;
-// };
-// document.addEventListener("DOMContentLoaded", showCards3);
